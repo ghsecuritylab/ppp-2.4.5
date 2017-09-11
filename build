@@ -1,3 +1,4 @@
 chmod 777 configure
 ./configure –prefix=/tmp/ppp‐dest
-make
+make CC=/opt/arm-2011.03/bin/arm-none-linux-gnueabi-gcc
+#make install
