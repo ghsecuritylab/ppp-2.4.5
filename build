@@ -1,0 +1,3 @@
+chmod 777 configure
+./configure –prefix=/tmp/ppp‐dest
+make
